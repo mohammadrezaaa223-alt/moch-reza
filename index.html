@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="page.css">
+    <style>
+    *{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.start{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(5, 117, 15);
+}
+
+.start a{
+    text-decoration: none;
+    color: white;
+}
+
+.p1{
+    background-image: url(img/goooh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.m1{
+    box-sizing: border-box;
+    margin-left: 100px;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.p1 h3{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.p1 p{
+    margin-top: 30px;    
+}
+
+.contact{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    padding: auto;
+}
+
+.m1{
+     box-sizing: border-box;
+    margin-left: 100px;
+    color: white;
+    padding-bottom: 80px;
+}
+.main2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.nav2 h1 h3{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+
+
+}
+.nav2 h3 {
+    color: rgb(122, 6, 6);
+}
+
+#garis{
+    color:rgb(122, 3, 3)
+}
+
+.main2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.satu{
+    box-sizing: border-box;
+    margin-right: 100px;
+    margin-left: 200px;
+    width: 50%;
+}
+.dua{
+    width: 50%;
+}
+img{
+    width: 600px;
+    height: 500px;
+}
+.dua ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dua ul li{
+    font-size: 40px;
+}
+#kopi{
+    text-align: center;
+    font-size: 20px;
+}
+.main3{
+    background-image: url(img/reaa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page2{
+    width: 400px;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main3 h3,p{
+    color: white;
+}
+.main3 .start{
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+</style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><h2>KAFE LARANA</h2></div>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        <div class="start"><a href="">MENU</a></div>
+    </nav>
+    <div class="p1">
+        <div class="m1">
+            <h3>Menyediakan macam-macam makanan dan minuman</h3>
+            <h1>Berbagai macam makanan <br>Beserta minuman segar dan jus buah</h1>
+            <h1>---------</h1>
+            <p>Disini tersedia segala jenis minuman, <br> Meskipun begitu  Jika anda haus, Anda bisa mampir ke toko kami. <br> Minuman disini bebas request, mau yang halal <br> Jika anda ber minat untuk membeli silahkan klik :</p>
+            <div class="contact"><a href="">BELI</a></div>
+        </div>
+    </div>
+    <div class="nav2">
+        <h3><br><br><br>Our service</h3>
+        <h1>apa yang kita sajikan</h1>
+        <h1 id="garis">_______</h1>
+    </div>
+    <div class="main2">
+        <div class="satu"><img src="img/snack.jpg" alt="caffe"></div>
+        <div class="dua">
+            <ul>
+                <li>snack</li>
+                <li>minuman</li>
+                <li>DLL</li>
+            </ul>
+        </div>
+    </div>
+    <p id="kopi">kami hadir dengan berbagai makanan dan minuman terenak</p>
+    <div class="main3">
+        <div class="page2">
+            <h3>about us</h3>
+            <br>
+            <h1>kaffe larana</h1>
+            <br>
+            <br>
+            <p>kaffe larana merupakan sebuah toko yang berkualitas dan modern di bondowoso Jual berbagai makanan yang pasti enak dan segar untuk diminum! Yuk beli sekarang di cafe larana sebelum cafe tersebut tutup</p>
+            <br>
+            <p>dalam menjalankan bisnis saya, kaffe larana juga menyediakan minuman yang segar cocok untuk Musim panas nanti! tunggu apa lagi Buruan mampir ajak keluargamu sebelum kehabisan</p>
+            <div class="start"><a href="">let's Start</a>></div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
